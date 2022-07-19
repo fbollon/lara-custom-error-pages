@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace Fbollon\LaraCustomErrorPages;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use Fbollon\LaraCustomErrorPages\Commands\LaraCustomErrorPagesCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LaraCustomErrorPagesServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('lara-custom-error-pages')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_lara-custom-error-pages_table')
+            ->hasCommand(LaraCustomErrorPagesCommand::class);
     }
 }

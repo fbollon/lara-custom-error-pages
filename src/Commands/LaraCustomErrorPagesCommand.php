@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Fbollon\LaraCustomErrorPages\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaraCustomErrorPagesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lara-custom-error-pages';
 
     public $description = 'My command';
 

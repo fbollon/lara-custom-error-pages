@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "fbollon/lara-custom-error-pages",
+    "description": "Custom error pages for Laravel applications",
     "keywords": [
-        ":vendor_name",
+        "fbollon",
         "laravel",
-        ":package_slug"
+        "lara-custom-error-pages"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/fbollon/lara-custom-error-pages",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Frédéric Bollon",
+            "email": "fbollon@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Fbollon\\LaraCustomErrorPages\\": "src",
+            "Fbollon\\LaraCustomErrorPages\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Fbollon\\LaraCustomErrorPages\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Fbollon\\LaraCustomErrorPages\\LaraCustomErrorPagesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaraCustomErrorPages": "Fbollon\\LaraCustomErrorPages\\Facades\\LaraCustomErrorPages"
             }
         }
     },
