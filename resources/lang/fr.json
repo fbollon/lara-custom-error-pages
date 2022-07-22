@@ -1,0 +1,21 @@
+{
+    "Application": "Application",
+    "Url" : "Url",
+    "Unauthorized": "Non autorisé",
+    "The client request has not been completed because it lacks valid authentication credentials for the requested resource.": "Il manque des informations d'authentification valides pour la ressource visée.",
+    "Forbidden": "Interdit",
+    "The access is permanently forbidden and tied to the application logic, such as insufficient rights to a resource": "L'accès est définitivement interdit et est lié à la logique de l'application, par exemple manque d'une permission d'accès à une ressource.",
+    "Not found": "Page introuvable",
+    "The server did not find the requested address": "Le serveur n'a pas trouvé l'adresse demandée",
+    "Back to homepage": "Retour à la page d'accueil",
+    "Page Expired": "Page expirée",
+    "Sorry, your session has expired, please refresh and try again": "Désolé, votre session a expiré, veuillez rafraîchir et réessayer",
+    "Too Many Requests": "Trop de requêtes",
+    "The client application has surpassed its number of requests they can send in a given period of time": "L'application cliente a dépassé le nombre de requêtes qu'elle peut envoyer dans un laps de temps donné",
+    "Server Error": "Erreur de serveur interne",
+    "The server encountered an unexpected condition that prevented it from fulfilling the request": "Le serveur a rencontré un problème inattendu qui l'empêche de répondre à la requête",
+    "Service unvailable": "Service non disponible",
+    "Certainly a maintenance, please try again in a few minutes": "Il s'agit certainement d'une maintenance, veuillez réessayer dans quelques minutes",
+    "Refresh": "Rafraîchir",
+    "Auto refresh in ": "Rafraîchissement automatique dans "
+}
