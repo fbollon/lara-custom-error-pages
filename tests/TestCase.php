@@ -2,9 +2,9 @@
 
 namespace Fbollon\LaraCustomErrorPages\Tests;
 
+use Fbollon\LaraCustomErrorPages\LaraCustomErrorPagesServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Fbollon\LaraCustomErrorPages\LaraCustomErrorPagesServiceProvider;
 
 class TestCase extends Orchestra
 {

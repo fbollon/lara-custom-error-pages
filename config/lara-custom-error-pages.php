@@ -7,9 +7,7 @@ return [
      * for example to allow you to use your own fonts and css
      *
      * 'custom_header' => 'layouts.partials.header',
-     *
      */
-
     'custom_header' => null,
 
     /** to display an autorefresh message and a countdown */
@@ -19,6 +17,6 @@ return [
             503,
         ],
         /** autorefresh interval in seconds */
-        'interval' => 121
-    ]
+        'interval' => 121,
+    ],
 ];
