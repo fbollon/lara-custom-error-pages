@@ -1,23 +1,23 @@
 <?php
 
 namespace Fbollon\LaraCustomErrorPages;
+
 use Carbon\Carbon;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LaraCustomErrorPagesServiceProvider extends PackageServiceProvider
 {
-
     public function boot()
     {
         $this->bootingPackage();
 
         if ($this->package->hasTranslations) {
-            $langPath = 'vendor/' . $this->package->shortName();
+            $langPath = 'vendor/'.$this->package->shortName();
 
             $langPath = (function_exists('lang_path'))
                 ? lang_path($langPath)
-                : resource_path('lang/' . $langPath);
+                : resource_path('lang/'.$langPath);
         }
 
         if ($this->app->runningInConsole()) {
@@ -90,7 +90,6 @@ class LaraCustomErrorPagesServiceProvider extends PackageServiceProvider
             ], "{$this->package->name}-components");
         }
 
-
         foreach ($this->package->routeFileNames as $routeFileName) {
             $this->loadRoutesFrom("{$this->package->basePath('/../routes/')}{$routeFileName}.php");
         }
@@ -121,6 +120,5 @@ class LaraCustomErrorPagesServiceProvider extends PackageServiceProvider
             ->hasAssets()
             ->hasTranslations()
             ->hasViews();
-
     }
 }
