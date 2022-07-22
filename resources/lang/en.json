@@ -1,0 +1,21 @@
+{
+    "Application": "Application",
+    "Url" : "Url",
+    "Unauthorized": "Unauthorized",
+    "The client request has not been completed because it lacks valid authentication credentials for the requested resource.": "The client request has not been completed because it lacks valid authentication credentials for the requested resource.",
+    "Forbidden": "Forbidden",
+    "The access is permanently forbidden and tied to the application logic, such as insufficient rights to a resource.": "The access is permanently forbidden and tied to the application logic, such as insufficient rights to a resource.",
+    "Not found": "Not found",
+    "The server did not find the requested address": "The server did not find the requested address",
+    "Back to homepage": "Back to homepage",
+    "Page Expired": "Page Expired",
+    "Sorry, your session has expired, please refresh and try again": "Sorry, your session has expired, please refresh and try again",
+    "Too Many Requests": "Too Many Requests",
+    "The client application has surpassed its number of requests they can send in a given period of time": "The client application has surpassed its number of requests they can send in a given period of time",
+    "Server Error": "Internal Server Error",
+    "The server encountered an unexpected condition that prevented it from fulfilling the request": "The server encountered an unexpected condition that prevented it from fulfilling the request",
+    "Service unvailable": "Service unvailable",
+    "Certainly a maintenance, please try again in a few minutes": "Certainly a maintenance, please try again in a few minutes",
+    "Refresh": "Refresh",
+    "Auto refresh in ": "Automatic refresh in "
+}
