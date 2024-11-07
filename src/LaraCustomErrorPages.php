@@ -2,6 +2,4 @@
 
 namespace Fbollon\LaraCustomErrorPages;
 
-class LaraCustomErrorPages
-{
-}
+class LaraCustomErrorPages {}
