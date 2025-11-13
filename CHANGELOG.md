@@ -2,6 +2,9 @@
 
 All notable changes to `lara-custom-error-pages` will be documented in this file.
 
+## 1.3.0 - 2025-11-13
+
+- add Laravel 12.x support.
 
 ## 1.2.0 - 2024-10-31
 
